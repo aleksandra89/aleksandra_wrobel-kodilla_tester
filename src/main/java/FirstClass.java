@@ -1,22 +1,34 @@
 public class FirstClass {
-    public static void main(String[] args) {         // [2]
-        System.out.println("Hello from FirstClass!");
+    public static void main(String[] args) {
+        Notebook notebook = new Notebook("600g", 1000); //typ zmiennej jest taki jak nazwa klasy - klasa to foremka a obiekt to ciastko
+        //System.out.println(notebook.weight);// obiekt to notebook, jesli chcemy wywolac sama zmienna to robimy.nazawazmiennej
+        //System.out.println(notebook.price);
+        System.out.println(notebook.weight + " cena" + notebook.price);
+        //if(notebook.price<900) {
+           // System.out.println("This notebook is cheap");
+       //}
+        //else {
+            //System.out.println("This notebook is quite expensive");
+       // }
+        notebook.checkPrice();
 
-            if (1 > 2){
-                System.out.println("Niesamowite! Jeden jest większe niż dwa!!!");
-            } else {
-                System.out.println("Wszystko po staremu, jeden jest mniejsze niż dwa.");
-            }
-            int yourAge = 12;
+        Notebook heavyNotebook = new Notebook("2000g", 2000);
+        //System.out.println(heavyNotebook.weight);
+        //System.out.println(heavyNotebook.price);
+        System.out.println(heavyNotebook.weight + " cena" + heavyNotebook.price);
+        heavyNotebook.checkPrice();
 
-            System.out.println(yourAge);
-        if (yourAge < 10){
-            System.out.println("You're a kid");
-        } else if (yourAge > 10 && yourAge < 18) {
-            System.out.println("You're a teenager");
-        } else {
-            System.out.println("You're an adult");
-        }
+        Notebook oldNotebook = new Notebook("1200g", 200);
+        //System.out.println(oldNotebook.weight);
+        //System.out.println(oldNotebook.price);
+        System.out.println(oldNotebook.weight + " cena" + oldNotebook.price);
+        oldNotebook.checkPrice();
+
+        //konkatenacja = laczenie argumentow ciagiem w jednym system.out
+
+
+
+
 
     }
 }

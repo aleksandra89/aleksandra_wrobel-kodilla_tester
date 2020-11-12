@@ -1,6 +1,6 @@
 public class LeapYear {
     public static void main(String[] args) {
-        int firstYear = 2220;
+        int firstYear = 2020;
 
 
         System.out.println(firstYear);
