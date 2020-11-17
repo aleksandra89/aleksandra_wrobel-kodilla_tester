@@ -16,9 +16,8 @@ public class Grades {
         this.grades[this.size] = value;
         this.size++;
     }
-    public void lastGrade(int lastG) {
-        if (this.last == grades.length-1) {
-            return;
+    public int lastGrade() {
+        return this.grades[this.size-1];
 
         }
         public void average() {
