@@ -19,19 +19,19 @@ public class Grades {
     public int lastGrade() {
         return this.grades[this.size-1];
 
+    }
+    public void average() {
+        int suma = 0;
+        for (i=0; i<grades.length; i++) {
+            suma +=grades[i];
         }
-        public void average() {
-            int suma = 0;
-            for (i=0; i<grades.length; i++) {
-                suma +=grades[i];
-            }
-            int av = suma/this.size;
-            return;
-
-        }
-
+        int av = suma/this.size;
+        return;
 
     }
+
+
+}
 
 
 
