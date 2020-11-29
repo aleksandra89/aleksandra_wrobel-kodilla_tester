@@ -1,4 +1,6 @@
-package com.kodilla.abstracts;
+package com.kodilla.inheritance.homework;
+
+import com.kodilla.inheritance.homework.Shape;
 
 public class Trapeze extends Shape {
 

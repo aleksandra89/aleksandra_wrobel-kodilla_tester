@@ -1,6 +1,4 @@
-package com.kodilla.abstracts;
-
-import java.sql.SQLOutput;
+package com.kodilla.inheritance.homework;
 
 public class Square extends Shape {
 

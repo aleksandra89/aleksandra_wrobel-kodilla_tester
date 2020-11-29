@@ -1,5 +1,9 @@
 package com.kodilla.abstracts;
 
+import com.kodilla.inheritance.homework.Rectangle;
+import com.kodilla.inheritance.homework.Square;
+import com.kodilla.inheritance.homework.Trapeze;
+
 public class Application {
     public static void main(String[] args) {
 
