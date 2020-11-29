@@ -1,24 +1,18 @@
 public class User {
 
-    String name;
-    int age;
-
-
-
+    private String name;
+   private int age;
 
     public User (String name, int age){  //konstruktor
 
         this.name = name;
         this.age = age;
-
-
-
-
     }
-    String getName() {
+
+    public String getName() {
         return name;
     }
-    int getAge() {
+    public int getAge() {
         return age;
 
     }

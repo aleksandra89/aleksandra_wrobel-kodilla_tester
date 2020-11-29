@@ -11,18 +11,17 @@ public class UserTest{
 
         User[] users = {anna, patrycja, marek, kamil, monika};
 
-        int suma = anna.age + marek.age + patrycja.age + kamil.age + monika.age;
-        System.out.println(suma);
-
-        int average = suma/users.length;
-        System.out.println(average);
-
+        int suma=0;
         for (int i=0; i<users.length; i++){
-            System.out.println(this.name);
-
-
-
+            suma=suma+users[i].getAge();
+        }
+            double average =(double) suma/users.length;
+        for (int i=0; i<users.length; i++) {
+            if ( users[i].getAge() < average ) {
+                System.out.println(users[i].getName());
+            }
+        }
         }
 
+
     }
-}

@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class color {
@@ -21,3 +22,4 @@ public class color {
         }
     }
 }
+*/

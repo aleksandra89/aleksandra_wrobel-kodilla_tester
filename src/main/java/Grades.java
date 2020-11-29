@@ -22,17 +22,12 @@ public class Grades {
     }
     public int average() {
         int suma = 0;
-        for (i=0; i<grades.length; i++) {
+        for (int i=0; i<grades.length; i++) {
             suma +=grades[i];
         }
         int av = suma/this.size;
         return av;
 
     }
-
-
-}
-
-
 
 }
