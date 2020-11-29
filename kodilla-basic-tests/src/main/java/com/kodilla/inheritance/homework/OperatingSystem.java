@@ -1,4 +1,4 @@
-/*
+
 package com.kodilla.inheritance.homework;
 
 public class OperatingSystem {
@@ -21,4 +21,4 @@ public class OperatingSystem {
     public int getYear() {
         return year;
     }
-}*/
+}
