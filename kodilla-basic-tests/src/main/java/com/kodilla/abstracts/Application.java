@@ -15,15 +15,15 @@ public class Application {
 
         // zadanie 3.2
 
-        Square square = new Square();
+       Square square = new Square(6,6);
         square.caculateArea();
         square.calculateCircumference();
 
-        Rectangle rectangle = new Rectangle();
+        Rectangle rectangle = new Rectangle(6,8);
         rectangle.caculateArea();
         rectangle.calculateCircumference();
 
-        Trapeze trapeze = new Trapeze();
+        Trapeze trapeze = new Trapeze(4,6,7,3);
         trapeze.caculateArea();
         trapeze.calculateCircumference();
 

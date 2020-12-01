@@ -2,7 +2,7 @@ package com.kodilla.inheritance.homework;
 
 public abstract class Shape {
 
-    private int a;
+   /* private int a;
     private int b;
     private int h;
 
@@ -20,7 +20,7 @@ public abstract class Shape {
     }
     public int getH() {
         return h;
-    }
+    }*/
 
     public abstract void caculateArea();  //metody abstrakcyjne nalezy zaimpementowac do klasy dziedziczacej
     public abstract void calculateCircumference();
